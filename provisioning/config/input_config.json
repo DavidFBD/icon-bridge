@@ -1,0 +1,25 @@
+{
+    "chains":
+    {
+        "icon_testnet": {
+            "endpoint": "https://lisbon.net.solidwallet.io/api/v3/icon_dex",
+            "network_id": "0x2",
+            "btp_network_id": "0x2.icon"
+        },
+        "icon_mainnet": {
+            "endpoint": "https://ctz.solidwallet.io/api/v3/icon_dex",
+            "network_id": "0x1",
+            "btp_network_id": "0x1.icon"
+        },
+        "bsc_testnet": {
+            "endpoint": "https://data-seed-prebsc-1-s1.binance.org:8545",
+            "network_id": "0x61",
+            "btp_network_id": "0x61.bsc"
+        },
+        "bsc_mainnet": {
+            "endpoint": "https://bsc-dataseed.binance.org",
+            "network_id": "0x38",
+            "btp_network_id": "0x38.bsc"
+        }
+    }
+}
